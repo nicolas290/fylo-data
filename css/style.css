@@ -1,0 +1,55 @@
+:root{
+background-color: hsl(229,57%,11%);
+--Gradient: hsl(6, 100%,80%) to hsl(335, 100%, 65%);
+ --Pale-Blue: hsl(243, 100%,93%);
+ --Grayish-Blue:hsl(229, 7%,55%);
+ --DarkBlue: hsl(228, 56%,26%);
+ margin: 0%;
+
+}
+body{
+font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+margin :19%;
+padding: 0%;
+
+
+}
+.container{
+
+width: 50%;
+height: 50%;
+border:1px solid red;
+display: flex;
+justify-content: flex-start;
+background-color: hsl(229,57%,11%);
+margin: 50px ;
+border-radius: 10px;
+padding: 60px;
+padding-right:100px ;
+margin-right: 100px;
+border-right: 20px;
+
+}
+
+.menu{
+display: flex;
+justify-content: space-evenly;
+border-radius: 10px 5px 10px 10px;
+}
+
+
+.barra{
+width: 50%;
+height:100%;
+border: 1px solid blue;
+display: flex;
+justify-content: flex-start;
+margin: 50px;
+border-radius: 10px 5px 10px,10px;
+padding: 20px;
+padding-right: 100px;
+padding-left: 100px;
+margin-right: 10%;
+
+}
